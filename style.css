@@ -1,0 +1,60 @@
+
+body {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+background: radial-gradient(circle, rgba(252,220,220,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.container {
+  margin: 30px auto 0px auto;
+  text-align: center;
+}
+.container h1 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #212121;
+  letter-spacing: 3px;
+}
+
+
+/* Presentational styles */
+a {
+  color: #54b3d6;
+  font-family: 'Poppins', sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+
+
+/* icons effect */
+.effect.icons a {
+  transition: all 0.2s linear 0.2s;
+}
+.effect.icons a i {
+  transition: all 0.2s linear 0s;
+}
+.effect.icons a:hover {
+  transition: all 0.2s linear 0s;
+  border-color: rgba(33, 33, 33, 0);
+}
+.effect.icons a:hover i {
+  transform: scale(1.15);
+  text-shadow: 4px 0px 3px rgba(105, 105, 105, 0.3);
+  transition: all 0.2s linear 0.2s;
+}
+
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 350px;
+  border-radius: 25%;
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+}
